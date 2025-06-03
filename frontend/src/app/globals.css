@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* @theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* background: #0054AF; */
+  background: linear-gradient(90deg, rgba(0, 84, 175, 1) 0%, rgba(0, 36, 74, 1) 50%);
+}
+
+@theme {
+  --color-tblHeader: #ECECEC;
+  --color-tblHeaderText: #575F6E;
+  --color-txtPrimary: #242731;
+  --color-txtActive: #007AFF;
+  --color-txtSecondary: #9A9EA5;
+  --color-checkBoxBorder: #BBBFC1;
+  --color-bgPagination: #F5F5F5;
+  ;
+}
